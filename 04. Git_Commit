@@ -1,0 +1,10 @@
+# What is git commit?
+- A commit records the staged changes in the local Git repository.
+
+# Syntax :
+git commit -m "commit message"
+
+# Example :
+git commit -m "Add Git basic commands notes"
+
+When you are commit the file it will finally changes the content successfully...!
