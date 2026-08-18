@@ -1,0 +1,20 @@
+# What is git status?
+- git status shows the current state of the Git repository.
+
+This command tells you :
+- which files are modified
+- Which files are untracked
+- Which files are staged
+- Which files are ready to be committed
+
+# Command
+git status
+
+# For Example :
+
+PS C:\Users\mahamad y\Desktop\Git_and_GitHub\Git_and_GitHub> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\mahamad y\Desktop\Git_and_GitHub\Git_and_GitHub> 
