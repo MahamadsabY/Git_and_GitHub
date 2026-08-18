@@ -1,5 +1,39 @@
 This is Git and GitHub end to end course 
 
+# Git Basics :
+
+This section covers the fundamental Git commands required to work with a Git repository.
+
+#🎯 Learning Objectives
+
+- What Git is
+- What GitHub is
+- How to clone a repository
+- How to check repository status
+- How to add files to the staging area
+- How to commit changes
+- How to push changes to GitHub
+- Basic Git workflow
+
+---
+
+## 🔄 Basic Git Workflow
+
+The basic workflow for sending local changes to GitHub is:
+
+```text
+Create / Modify File
+        ↓
+   git status
+        ↓
+     git add
+        ↓
+   git commit
+        ↓
+    git push
+        ↓
+      GitHub
+
 Author - Mahamadsab Yamakanamardi
 
 Date - 18/08/2026
