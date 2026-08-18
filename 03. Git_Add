@@ -1,0 +1,14 @@
+# What is git add?
+- git add moves changes from the working directory to the staging area.
+
+# Syntax :
+git add <file_name
+
+git add file1.txt file2.txt -- for adding multiple files
+
+# Add all changes command
+git add .
+
+After running:
+
+the changes are placed in the staging area.
