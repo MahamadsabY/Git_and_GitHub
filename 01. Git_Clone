@@ -1,0 +1,13 @@
+# What is Git Clone?
+- git clone is used to copy an existing remote Git repository from GitHub to your local computer.
+
+Syntax :
+git clone <repository-url>
+
+Example : 
+git clone https://github.com/username/devops-course.git
+
+This creates the local copy of the repository.
+
+
+
