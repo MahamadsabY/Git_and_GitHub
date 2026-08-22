@@ -49,3 +49,12 @@ git branch -m old-name new-name
 Example:
 git branch -m feature feature-login
 
+# Create a new branch :
+
+git checkout -b <-new branch name>
+
+
+# Delete a branch :
+
+git branch -d <-branch name>
+
