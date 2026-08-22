@@ -1,0 +1,51 @@
+# What is a Git Branch?
+
+A Git branch is a movable pointer/reference to a commit.
+
+It allows developers to work on different versions of a project independently without immediately affecting the main codebase.
+
+# Why Do We Need Branches?
+
+Without branches, multiple developers would have to modify the same codebase directly.
+Branches allow:
+-Feature development
+-Bug fixing
+-Experimentation
+-Release management
+-Hotfixes
+-Parallel development
+-Code review
+-CI/CD workflows
+
+# Check Current Branch Command
+git branch
+Example:
+* main
+The * indicates your current branch and using this command you can list out the branches.
+You can also use git branch -a for listing the branch
+
+# git branch -
+ - Using this you can lists the remote branches
+
+# Switch to a Branch
+Older/common command:
+git checkout feature-login
+
+Modern command:
+git switch feature-login
+
+I recommend learning git switch for branch switching because its purpose is clearer.
+
+# Rename a Branch
+Rename current branch:
+git branch -m new-name
+
+Example:
+git branch -m development
+
+Rename another branch:
+git branch -m old-name new-name
+
+Example:
+git branch -m feature feature-login
+
