@@ -1,0 +1,62 @@
+# 🔀 Git Merge :
+git merge is used to combine the changes from one branch into another branch.
+
+If you want to merge feature into main:
+git switch main
+git merge feature
+
+# Why Do We Need Git Merge?
+
+In a real project, developers normally don't work directly on main.
+
+For example:
+main
+ │
+ ├── feature/login
+ ├── feature/payment
+ ├── feature/search
+ └── bugfix/database
+
+Each developer works independently.
+Eventually, their changes need to be combined into the main codebase.
+That's where git merge is used.
+
+feature/login
+      │
+      ↓
+    merge
+      │
+      ↓
+     main
+
+
+# 2 Way to Merge the branch in GitHub
+
+1. Git diff <-branch name->
+    - Using this command you can chekc the difference of 2 branches
+
+  git merge <-branch name->
+    - After seeing the difference you can merge the branches using this command.
+
+2. Create the PR is second way to merge the branches.
+   - PR - Pull Request
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
