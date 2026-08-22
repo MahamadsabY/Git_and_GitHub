@@ -1,0 +1,32 @@
+# What is Gitinit ?
+- git init as creating an empty Git repository or reinitializing an existing one. It converts a normal directory into a Git repository.
+It creates a normal directory into git repository using command Gitinit
+
+ # Why do we need git init?
+
+Suppose you have created a project manually:
+
+DevOps-Project/
+├── Dockerfile
+├── app.py
+└── requirements.txt
+
+At this point, Git isn't managing the project.
+
+You can start version control with:
+cd DevOps-Project
+git init
+
+Now Git can track changes in that project.
+
+The typical first-commit workflow is:
+
+git init
+git add .
+git commit -m "Initial commit"
+
+# git remote add origin <-link->  ---> Used to add repo in remote directory
+
+# git remote -v ---> Used to verify remote directory
+
+
